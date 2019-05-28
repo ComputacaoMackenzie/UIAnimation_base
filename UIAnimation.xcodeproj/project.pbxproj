@@ -16,6 +16,7 @@
 		E0A13E6A229C59FD007A6007 /* PrataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A13E69229C59FD007A6007 /* PrataViewController.swift */; };
 		E0A13E6C229C5A25007A6007 /* OuroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A13E6B229C5A25007A6007 /* OuroViewController.swift */; };
 		E0A13E6E229C7E17007A6007 /* CircularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A13E6D229C7E17007A6007 /* CircularViewController.swift */; };
+		E0BA0D6F229DE5500042402C /* PrataShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA0D6E229DE5500042402C /* PrataShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E0A13E69229C59FD007A6007 /* PrataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrataViewController.swift; sourceTree = "<group>"; };
 		E0A13E6B229C5A25007A6007 /* OuroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroViewController.swift; sourceTree = "<group>"; };
 		E0A13E6D229C7E17007A6007 /* CircularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularViewController.swift; sourceTree = "<group>"; };
+		E0BA0D6E229DE5500042402C /* PrataShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrataShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E0A13E6D229C7E17007A6007 /* CircularViewController.swift */,
 				E0A13E67229C59B8007A6007 /* BronzeViewController.swift */,
 				E0A13E69229C59FD007A6007 /* PrataViewController.swift */,
+				E0BA0D6E229DE5500042402C /* PrataShowViewController.swift */,
 				E0A13E6B229C5A25007A6007 /* OuroViewController.swift */,
 				778CE9D5229BF77300F5483E /* Main.storyboard */,
 				778CE9D8229BF77600F5483E /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				778CE9D2229BF77300F5483E /* AppDelegate.swift in Sources */,
 				E0A13E6E229C7E17007A6007 /* CircularViewController.swift in Sources */,
 				E0A13E6A229C59FD007A6007 /* PrataViewController.swift in Sources */,
+				E0BA0D6F229DE5500042402C /* PrataShowViewController.swift in Sources */,
 				E0A13E68229C59B8007A6007 /* BronzeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

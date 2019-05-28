@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class BronzeViewController: UIViewController {
+    
     @IBOutlet weak var Foguetinho: UIImageView!
     
     @IBOutlet weak var Lua: UIImageView!
