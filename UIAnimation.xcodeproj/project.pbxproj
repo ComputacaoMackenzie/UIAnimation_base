@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C5C9D97229C762900729968 /* ViewControllerBronze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5C9D96229C762900729968 /* ViewControllerBronze.swift */; };
+		0C9E14FB229ECD640000F613 /* ViewControllerOuro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E14FA229ECD640000F613 /* ViewControllerOuro.swift */; };
 		778CE9D2229BF77300F5483E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CE9D1229BF77300F5483E /* AppDelegate.swift */; };
 		778CE9D4229BF77300F5483E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CE9D3229BF77300F5483E /* ViewController.swift */; };
 		778CE9D7229BF77300F5483E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778CE9D5229BF77300F5483E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0C5C9D96229C762900729968 /* ViewControllerBronze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBronze.swift; sourceTree = "<group>"; };
+		0C9E14FA229ECD640000F613 /* ViewControllerOuro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOuro.swift; sourceTree = "<group>"; };
 		778CE9CE229BF77300F5483E /* UIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778CE9D1229BF77300F5483E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778CE9D3229BF77300F5483E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				778CE9D3229BF77300F5483E /* ViewController.swift */,
 				0C5C9D96229C762900729968 /* ViewControllerBronze.swift */,
 				778CE9D5229BF77300F5483E /* Main.storyboard */,
+				0C9E14FA229ECD640000F613 /* ViewControllerOuro.swift */,
 				778CE9D8229BF77600F5483E /* Assets.xcassets */,
 				778CE9DA229BF77600F5483E /* LaunchScreen.storyboard */,
 				778CE9DD229BF77600F5483E /* Info.plist */,
@@ -141,6 +144,7 @@
 				778CE9D4229BF77300F5483E /* ViewController.swift in Sources */,
 				0C5C9D97229C762900729968 /* ViewControllerBronze.swift in Sources */,
 				778CE9D2229BF77300F5483E /* AppDelegate.swift in Sources */,
+				0C9E14FB229ECD640000F613 /* ViewControllerOuro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

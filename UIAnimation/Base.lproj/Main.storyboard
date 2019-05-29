@@ -13,7 +13,6 @@
         <!--Bronze-->
         <scene sceneID="lHF-dN-ARc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6ga-1z-lVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="LaB-eW-x7h" customClass="ViewControllerBronze" customModule="UIAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8N2-mN-kSu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
@@ -49,6 +48,7 @@
                         <outlet property="world" destination="R0q-yZ-rMF" id="1Hv-K9-ncc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ga-1z-lVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1372.4637681159422" y="1279.6875"/>
         </scene>
@@ -71,18 +71,47 @@
         <!--Ouro-->
         <scene sceneID="VPQ-z8-7lg">
             <objects>
-                <viewController id="Ctb-Ec-WkQ" sceneMemberID="viewController">
+                <viewController id="Ctb-Ec-WkQ" customClass="ViewControllerOuro" customModule="UIAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7op-CT-CGV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6h2-L5-kc6">
+                                <rect key="frame" x="20" y="44" width="374" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulo-et-SwR">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="374"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="openCard:" destination="Ctb-Ec-WkQ" eventType="touchUpInside" id="1Gx-3U-dBb"/>
+                                            <action selector="openCard:" destination="xhi-1t-K0p" eventType="touchUpInside" id="KWT-Am-6qk"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ESSE É UM CARD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftX-BN-Uk8">
+                                        <rect key="frame" x="119" y="177" width="136" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.89610737562179565" green="0.62269532680511475" blue="0.2744118869304657" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28341594338417053" green="0.3596842885017395" blue="0.43530809879302979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="jHD-q1-V5e"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Ouro" image="icon2" id="eHD-EZ-fOp"/>
+                    <connections>
+                        <outlet property="card" destination="6h2-L5-kc6" id="PxV-SR-93W"/>
+                        <outlet property="titulo" destination="ftX-BN-Uk8" id="NaA-9s-0qr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSG-TD-Ch4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xhi-1t-K0p" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="413" y="1280"/>
+            <point key="canvasLocation" x="411.59420289855075" y="1279.6875"/>
         </scene>
         <!--Base-->
         <scene sceneID="F1L-Fx-mba">
