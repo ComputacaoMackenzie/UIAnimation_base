@@ -115,6 +115,12 @@ class PrataViewController: UIViewController {
             self.animateFire(self.final, self.inicio)
         }) { (finished) in
             self.tabBarController?.selectedIndex = 3
+            
+            self.heading.center.x  -= self.view.bounds.width
+            self.username.center.x -= self.view.bounds.width
+            self.password.center.x -= self.view.bounds.width
+            self.login.center.x -= self.view.bounds.width
+            
         }
     }
     
